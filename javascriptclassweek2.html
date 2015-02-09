@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Pay Calculator</title>
+
+    <script type="text/javascript">
+    var time = prompt("How many hours did you work?");
+    var rateOfPay = 12.50;
+    var overTime = 18.25;
+
+    if (time <= 40) {
+      var regPay = time * rateOfPay;
+      alert("Your pay was $" + regPay);
+    } else {
+      var modPay = ((40 * rateOfPay) + ((time - 40) * overTime));
+
+      alert("Your pay was $" + modPay);
+    }
+
+    </script>
+  <body>
+    <h1>Overtime Pay Calculator</h1>
+
+  </body>
+  </head>
+</html>
+
+
