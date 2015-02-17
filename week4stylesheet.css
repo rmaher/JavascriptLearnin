@@ -1,0 +1,44 @@
+@charset="utf-8";
+
+body {
+  background-color: #dbdbdb;
+}
+
+h1 {
+  font-size: 300%;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+}
+
+table {
+  font-family: Arial;
+  text-align:center;
+  margin: auto;
+}
+
+td {
+  width:35%;
+  font-size: 200%;
+  background-color: #99BD4B;
+}
+
+th {
+  font-size: 250%;
+  background-color: #6e8932;
+}
+
+#button-group {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  margin-bottom: 3%;
+  font-size: 200%;
+  background-color: #F5D04C;
+  padding: 1%;
+  border-radius: 3px;
+  width: 20%;
+  
+}
