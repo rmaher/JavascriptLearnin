@@ -1,0 +1,72 @@
+body {
+  margin:0;
+  font-family: "alternate-gothic-no-2-d",sans-serif;
+  background-color: #faf8f0;
+}
+
+.hotelintro {
+  background: url(moutains.png) no-repeat;
+  width: 100%;
+  margin-top: 0;
+  margin-right: 0;
+  padding:2%;
+}
+
+h1 {
+  padding-top: 2%;
+  padding-left: 2%;
+  font-size: 600%;
+  -webkit-text-fill-color: #d57f59; 
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  
+}
+
+
+h3 {
+	text-align: center;
+	font-size: 250%;
+	color:#484761;
+	border-style: solid;
+    border-width: .3%;
+    border-color: #484761;
+    margin-left: 26%;
+    margin-right: 26%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+h4 {
+  text-align: center;
+  font-size: 200%;
+  color:#484761;
+  background-color: #d57f59;
+  padding: 1%;
+  font-family: Georgia;
+}
+
+h5 {
+  color:#484761;
+  padding-left: 4%;
+  font-weight: bold;
+  font-size: 130%;
+}
+
+p {
+  padding-left: 4%;
+  font-family: Georgia;
+}
+
+
+#button-group {
+  text-align: center;
+  padding:1%;
+  margin:0;
+  font-family: "alternate-gothic-no-2-d",sans-serif;
+  background-color: #faf8f0;
+}
+
+
+
+
